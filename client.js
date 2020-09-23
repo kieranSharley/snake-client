@@ -26,12 +26,10 @@ const connect = function() {
     console.log('Successfully connected to game server');
     ;
   });
-  // conn.on(`connect`, () => {
-  //   conn.write("Move: up");
-  // });
+
   
 
   return conn;
 }
 
-module.exports = connect
+module.exports = {connect}
